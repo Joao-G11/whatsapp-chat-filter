@@ -27,15 +27,21 @@ Have you ever wanted to focus on specific conversations within a lengthy WhatsAp
 
 1. Clone the repository to your local machine:
 
-xxxxxxx
+```bash
+$ git clone https://github.com/Joao-G11/whatsapp-chat-filter.git
+```
 
 2. Navigate to the project directory:
 
-xxxxxxx
+```bash
+$ cd whatsapp-chat-filter
+```
 
 3. Ensure you have Python 3.x installed on your system. You can check this by running:
 
-python3 --version
+```bash
+$ python3 --version
+```
 
 If Python is not installed, you can download it from the official website: https://www.python.org/downloads/
 
