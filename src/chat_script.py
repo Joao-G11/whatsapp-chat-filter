@@ -11,11 +11,14 @@ def readAndParseDate(date):
 
 # TODO: wrong input message vvv
 n = len(sys.argv)
-print("Total arguments passed:", n)
+if n != 4:
+    print("Wrong amount of arguments...")
+    print("Usage: python3 chat_filter.py path_to_chat_file first_date second_date")
+    exit(1)
 
 # open files
 input = open(sys.argv[1], "r")
-output = open("output.txt", "w")
+output = open("filtered_chat.txt", "w")
 
 # process dates
 d1 = readAndParseDate(sys.argv[2].split("."))
